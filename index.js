@@ -13,7 +13,7 @@ const NodeCache = require('node-cache');
 const PhoneNumber = require('awesome-phonenumber');
 const { default: makeWASocket, useMultiFileAuthState, Browsers, DisconnectReason, makeInMemoryStore, makeCacheableSignalKeyStore, proto, getAggregateVotesInPollMessage } = require('@whiskeysockets/baileys');
 
-let phoneNumber = "2349037524605";
+let phoneNumber = "2348038786290";
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code");
 const useMobile = process.argv.includes("--mobile");
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
